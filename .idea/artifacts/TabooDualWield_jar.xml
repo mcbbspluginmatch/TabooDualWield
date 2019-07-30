@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TabooDualWield:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TabooDualWield_jar</output-path>
+    <root id="archive" name="TabooDualWield.jar">
+      <element id="module-output" name="TabooDualWield" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>

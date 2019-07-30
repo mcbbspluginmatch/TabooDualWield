@@ -1,0 +1,6 @@
+name: TabooDualWield
+version: 1.0-SNAPSHOT
+main: me.skymc.taboodualwield.TabooDualWield
+
+depend:
+- TabooLib

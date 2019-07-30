@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Libs/PurtMars.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/TabooLib-4.83.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Libs" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../Libs" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Libs/PurtMars.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Libs" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../Libs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../Libs" recursive="false" type="SOURCES" />
+  </library>
+</component>

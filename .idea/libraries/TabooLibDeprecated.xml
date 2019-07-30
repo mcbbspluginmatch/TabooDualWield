@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TabooLibDeprecated">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Libs/TabooLibDeprecated.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
