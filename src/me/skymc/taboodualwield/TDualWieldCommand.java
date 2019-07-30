@@ -1,5 +1,6 @@
 package me.skymc.taboodualwield;
 
+import com.ilummc.tlib.resources.TLocale;
 import me.skymc.taboolib.commands.builder.SimpleCommandBuilder;
 
 import static com.ilummc.tlib.resources.TLocale.Translate.setColored;
@@ -26,6 +27,7 @@ public class TDualWieldCommand{
                     }
                     if (args[0].equalsIgnoreCase("reload")){
                         TabooDualWield.getConf().reload();
+                        TLocale.reload();
                         sender.sendMessage(setColored("&8&l[&2&lTabooDualWield&8&l] &e重载成功!"));
                         return true;
 
