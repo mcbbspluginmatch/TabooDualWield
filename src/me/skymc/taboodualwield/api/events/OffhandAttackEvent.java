@@ -52,7 +52,7 @@ public class OffhandAttackEvent extends Event implements Cancellable {
     }
 
     public Double getDamage(){
-        return this.getDamage();
+        return this.damage;
     }
 
 

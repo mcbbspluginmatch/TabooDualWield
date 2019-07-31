@@ -15,11 +15,11 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.metadata.FixedMetadataValue;
 
 import static me.skymc.taboodualwield.asm.AsmHandler.getImpl;
+import static me.skymc.taboodualwield.managers.AttackManager.isOffhandAttacking;
 import static me.skymc.taboodualwield.managers.CooldownManager.getItemCooldownRequireIfExist;
 /**
  * @Author CziSKY
@@ -30,7 +30,6 @@ public class PlayerListener implements Listener {
     // 造成攻击动画，不造成伤害。
     @EventHandler
     public void onClickOnAir(PlayerInteractEvent e){
-
         if (!(e.getAction() == Action.RIGHT_CLICK_BLOCK || e.getAction() == Action.RIGHT_CLICK_AIR)){
             return;
         }
@@ -77,6 +76,7 @@ public class PlayerListener implements Listener {
             return;
         }
         player.setMetadata("OFFHAND-ATTACKING", new FixedMetadataValue(TabooDualWield.getInst(), "0"));
+        Bukkit.broadcastMessage(isOffhandAttacking(player) + " test");
         getImpl().toggleHand(player);
         getImpl().attack(player, e.getRightClicked(), 0D);
         getImpl().toggleHand(player);
@@ -90,17 +90,6 @@ public class PlayerListener implements Listener {
         if (CooldownManager.isOffhandHasCoolDown(player)){
             TabooDualWield.getInst().getIsCooldown().remove(player);
             TabooDualWield.getInst().getCooldownTimer().remove(player);
-        }
-        if (e.getPlayer().hasMetadata(player.getName())){
-            e.getPlayer().removeMetadata("OFFHAND-ATTACKING", TabooDualWield.getInst());
-        }
-    }
-    // 数据清理
-    @EventHandler
-    public void onJoin(PlayerJoinEvent e){
-        Player player = e.getPlayer();
-        if (player.hasMetadata(player.getName())){
-            player.removeMetadata("OFFHAND-ATTACKING", TabooDualWield.getInst());
         }
     }
 }

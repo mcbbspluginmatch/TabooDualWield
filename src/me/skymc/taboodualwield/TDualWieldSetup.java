@@ -11,7 +11,7 @@ import org.bukkit.util.NumberConversions;
  */
 public class TDualWieldSetup {
     public static boolean checkTLibVersion(Plugin plugin, double requiredVersion) {
-        if (NumberConversions.toDouble(TabooLib.instance().getDescription().getVersion()) <= requiredVersion) {
+        if (NumberConversions.toDouble(TabooLib.instance().getDescription().getVersion()) < requiredVersion) {
             Bukkit.getConsoleSender().sendMessage("§8[§4§l" + plugin.getName() + "§8] §c" + "");
             Bukkit.getConsoleSender().sendMessage("§8[§4§l" + plugin.getName() + "§8] §c" + "#################### 错误 ####################");
             Bukkit.getConsoleSender().sendMessage("§8[§4§l" + plugin.getName() + "§8] §c" + "");
@@ -30,7 +30,7 @@ public class TDualWieldSetup {
         return true;
     }
     public static boolean checkServerVersion(Plugin plugin, double requiredVersion) {
-        if (TabooLib.getVersionNumber() <= requiredVersion) {
+        if (TabooLib.getVersionNumber() < requiredVersion) {
             Bukkit.getConsoleSender().sendMessage("§8[§4§l" + plugin.getName() + "§8] §c" + "");
             Bukkit.getConsoleSender().sendMessage("§8[§4§l" + plugin.getName() + "§8] §c" + "#################### 错误 ####################");
             Bukkit.getConsoleSender().sendMessage("§8[§4§l" + plugin.getName() + "§8] §c" + "");

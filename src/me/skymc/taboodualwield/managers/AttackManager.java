@@ -26,19 +26,19 @@ public class AttackManager {
     }
 
     public static void grantPermissionForPlayer(Player player){
-        for (String Permissions : TabooDualWield.getConf().getStringList("GRANT-PERMISSIONS")) {
-            if (Permissions.equalsIgnoreCase("NONE")){
+        for (String permissions : TabooDualWield.getConf().getStringList("GRANT-PERMISSIONS")) {
+            if (permissions.equalsIgnoreCase("NONE")){
                 return;
             }
-            PermissionUtils.addPermission(player, Permissions);
+            PermissionUtils.addPermission(player, permissions);
         }
     }
     public static void removePermissionForPlayer(Player player){
-        for (String Permissions : TabooDualWield.getConf().getStringList("GRANT-PERMISSIONS")) {
-            if (Permissions.equalsIgnoreCase("NONE")){
+        for (String permissions : TabooDualWield.getConf().getStringList("GRANT-PERMISSIONS")) {
+            if (permissions.equalsIgnoreCase("NONE")){
                 return;
             }
-            PermissionUtils.removePermission(player, Permissions);
+            PermissionUtils.removePermission(player, permissions);
         }
     }
     public static boolean attackRequireCheck(Player player){
