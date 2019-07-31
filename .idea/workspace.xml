@@ -7,22 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b84837e0-8c09-42fc-b2e6-906bd6ec6fb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/EntityListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TabooDualWield_jar/TabooDualWield.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TabooDualWield_jar/TabooDualWield.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/TDualWieldCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/TDualWieldCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/TabooDualWield.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/TabooDualWield.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/TabooLibSetup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/asm/AsmHandlerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/asm/AsmHandlerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/listener/PlayerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/listener/PlayerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/managers/AttackManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/managers/AttackManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/managers/AttackManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/managers/AttackManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/managers/CooldownManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TabooDualWield/me/skymc/taboodualwield/managers/CooldownManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/skymc/taboodualwield/TDualWieldSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/skymc/taboodualwield/TDualWieldSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/skymc/taboodualwield/TabooDualWield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/skymc/taboodualwield/TabooDualWield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/skymc/taboodualwield/api/events/OffhandAttackEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/skymc/taboodualwield/api/events/OffhandAttackEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/PlayerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/PlayerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/skymc/taboodualwield/managers/AttackManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/skymc/taboodualwield/managers/AttackManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,14 +55,14 @@
         <counts>
           <entry key="dummy" value="16" />
           <entry key="java" value="15512" />
-          <entry key="txt" value="69" />
+          <entry key="txt" value="78" />
           <entry key="yml" value="1703" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="15512" />
-          <entry key="PLAIN_TEXT" value="1420" />
+          <entry key="PLAIN_TEXT" value="1429" />
           <entry key="YAML" value="368" />
         </counts>
       </usages-collector>
@@ -84,11 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/TabooDualWield.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="626">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/PlayerListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+            <state relative-caret-position="471">
+              <caret line="77" column="103" selection-start-line="77" selection-start-column="103" selection-end-line="77" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/managers/CooldownManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="481">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/EntityListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="378">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/managers/AttackManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
+            <state relative-caret-position="71">
               <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -220,6 +206,7 @@
       <find>ifOffhand</find>
       <find>ifoffhand</find>
       <find>isoff</find>
+      <find>broadcast</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\tr\Desktop\WorkSpace\TabooDualWield\src\me\skymc\taboodualwield\listener</dir>
@@ -259,8 +246,8 @@
         <option value="$PROJECT_DIR$/src/me/skymc/taboodualwield/TDualWieldSetup.java" />
         <option value="$PROJECT_DIR$/src/me/skymc/taboodualwield/api/events/OffhandAttackEvent.java" />
         <option value="$PROJECT_DIR$/src/me/skymc/taboodualwield/TabooDualWield.java" />
-        <option value="$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/PlayerListener.java" />
         <option value="$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/EntityListener.java" />
+        <option value="$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/PlayerListener.java" />
       </list>
     </option>
   </component>
@@ -509,7 +496,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="taboodualwield" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564571389917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564571836956" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.18359375" />
@@ -555,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564566311068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix sth">
+      <created>1564571413662</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564571413662</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -595,7 +589,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add API and more features." />
-    <option name="LAST_COMMIT_MESSAGE" value="add API and more features." />
+    <MESSAGE value="fix sth" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix sth" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/util/UtilRayTrace.java" />
@@ -697,26 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/PlayerListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/EntityListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/asm/AsmHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -754,26 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/managers/CooldownManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/managers/AttackManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/task/CooldownTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -783,8 +738,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/TabooDualWield.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="626">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/managers/CooldownManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/managers/AttackManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/EntityListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/skymc/taboodualwield/listener/PlayerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="77" column="103" selection-start-line="77" selection-start-column="103" selection-end-line="77" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

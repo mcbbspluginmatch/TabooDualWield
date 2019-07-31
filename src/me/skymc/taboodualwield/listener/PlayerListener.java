@@ -19,7 +19,6 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.metadata.FixedMetadataValue;
 
 import static me.skymc.taboodualwield.asm.AsmHandler.getImpl;
-import static me.skymc.taboodualwield.managers.AttackManager.isOffhandAttacking;
 import static me.skymc.taboodualwield.managers.CooldownManager.getItemCooldownRequireIfExist;
 /**
  * @Author CziSKY
@@ -55,7 +54,6 @@ public class PlayerListener implements Listener {
         if (cooldownTicks > 0.0D){
             CooldownManager.makeOffhandCooldown(player, cooldownTicks);
         }
-
     }
 
     // 造成攻击伤害。
@@ -76,7 +74,6 @@ public class PlayerListener implements Listener {
             return;
         }
         player.setMetadata("OFFHAND-ATTACKING", new FixedMetadataValue(TabooDualWield.getInst(), "0"));
-        Bukkit.broadcastMessage(isOffhandAttacking(player) + " test");
         getImpl().toggleHand(player);
         getImpl().attack(player, e.getRightClicked(), 0D);
         getImpl().toggleHand(player);

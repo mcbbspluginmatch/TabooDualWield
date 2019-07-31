@@ -1,6 +1,5 @@
 package me.skymc.taboodualwield;
 
-import me.skymc.taboodualwield.asm.AsmHandler;
 import me.skymc.taboodualwield.managers.AttackManager;
 import me.skymc.taboolib.common.configuration.TConfiguration;
 import me.skymc.taboolib.common.inject.TInject;
