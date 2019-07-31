@@ -21,11 +21,8 @@ public class CooldownManager {
             player.setCooldown(player.getInventory().getItemInOffHand().getType(), Integer.parseInt(new java.text.DecimalFormat("0").format(tick * 20)));
         }
     }
-    public static boolean ifOffhandHasCoolDown(Player player){
+    public static boolean isOffhandHasCoolDown(Player player){
         if (TabooDualWield.getInst().getIsCooldown().get(player) != null && TabooDualWield.getInst().getIsCooldown().get(player)){
-            if (TabooDualWield.getConf().getBoolean("ATTACK-COOLDOWN.CHAT-BAR-DISPLAY")){
-                TLocale.sendTo(player, "COOLDOWN-CHATBAR", Double.toString(TabooDualWield.getInst().getCooldownTimer().get(player)));
-            }
             return true;
         }
         return false;

@@ -17,7 +17,7 @@ public class AttackManager {
             @Override
             public boolean onSend(Player player, Object packet) {
                 String name = packet.getClass().getSimpleName();
-                if (AttackManager.ifOffhandAttacking(player)){
+                if (AttackManager.isOffhandAttacking(player)){
                     return !name.equals("PacketPlayOutSetSlot") && !name.equals("PacketPlayOutWindowItems");
                 }
                 return true;
@@ -64,7 +64,7 @@ public class AttackManager {
         return true;
     }
 
-    public static boolean ifOffhandAttacking(Player player){
+    public static boolean isOffhandAttacking(Player player){
         return player.hasMetadata("OFFHAND-ATTACKING");
     }
 

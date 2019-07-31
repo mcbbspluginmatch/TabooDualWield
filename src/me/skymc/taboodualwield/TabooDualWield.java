@@ -1,6 +1,7 @@
 package me.skymc.taboodualwield;
 
 import me.skymc.taboodualwield.managers.AttackManager;
+import me.skymc.taboolib.TabooLib;
 import me.skymc.taboolib.common.configuration.TConfiguration;
 import me.skymc.taboolib.common.inject.TInject;
 import me.skymc.taboolib.plugin.PluginUtils;
@@ -42,7 +43,7 @@ public class TabooDualWield extends JavaPlugin {
     }
 
     public void onEnable(){
-        if (!(TabooLibSetup.checkVersion(this, 4.86))){
+        if (!(TDualWieldSetup.checkTLibVersion(this, 4.86)) || !(TDualWieldSetup.checkServerVersion(this, 10900))){
             PluginUtils.unload(this);
             return;
         }

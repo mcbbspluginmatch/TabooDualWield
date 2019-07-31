@@ -2,6 +2,7 @@ package me.skymc.taboodualwield;
 
 import com.ilummc.tlib.resources.TLocale;
 import me.skymc.taboolib.commands.builder.SimpleCommandBuilder;
+import org.bukkit.Bukkit;
 
 import static com.ilummc.tlib.resources.TLocale.Translate.setColored;
 
@@ -30,7 +31,6 @@ public class TDualWieldCommand{
                         TLocale.reload();
                         sender.sendMessage(setColored("&8&l[&2&lTabooDualWield&8&l] &e重载成功!"));
                         return true;
-
                     }
                     return true;
                 }).build();
